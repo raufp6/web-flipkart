@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <link rel="stylesheet" href="assets/css/responsive.css">    
+    <title>FlipKart</title> 
+</head>
+<body>
+    <!-- Header -->
+    <header id="" class="fixed-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <div class="logo-toggler">
+            <div class="mobile-toggler d-md-none">
+              <button class="navbar-toggler no-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fa fa-bars"></i>
+                </span>
+              </button>
+            </div>
+            <div class="logo">
+              <a href="#" class="d-flex align-items-center mb-lg-0 text-white text-decoration-none ">
+                <img class="bi me-2 logo-img img-fluid" src="assets/img/logo.png" alt="">
+              </a>
+              <a href="#" class="logo-explore">Explore <span>Plus</span> <img class="logo-explore-img" src="assets/img/plus_aef861.png" alt=""></a>
+            </div>
+          </div>
+          <div class="mobile-right d-md-none">
+            <div class="cart-mobile">
+              <a href="#"><i class="fa fa-shopping-cart "></i> </a>
+            </div>
+            <div class="cart-mobile">
+              <a href="#"><i class="fa fa-user "></i>  </a>
+            </div>
+          </div>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="search">
+            <input type="text" class="form-control searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse nav-menu" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown user-drop">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Abdul</a>
+                <ul class="dropdown-menu user-drop-list">
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-user roud-w-bg"></i> <span>Profile </span> </a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart roud-w-bg"></i> <span>Super Zone</span> </a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart roud-w-bg"></i> <span>Orders</span></a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-item" href="#">Become a Seller</a>
+              </li>
+              <li class="nav-item dropdown user-drop">
+                <a class="nav-link dropdown-toggle user-name" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                <ul class="dropdown-menu user-drop-list">
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-user roud-w-bg"></i> <span>Profile </span> </a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart roud-w-bg"></i> <span>Super Zone</span> </a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart roud-w-bg"></i> <span>Orders</span></a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+            <div class="cart-menu hidden-xs">
+              <a href="#"><i class="fa fa-shopping-cart "></i>  </a>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End-->
+    <!-- Main-->
+    <main>
+      <!-- Category Icons -->
+      <section class="main-category-icons bg-white">
+        <div class="container">
+          <div class="cat-items owl-carousel" id="category-carousel">
+            <div class="cat-item item">
+              <a href="#">
+                <img class="" src="assets/img/category/1.webp" alt="">
+                <p>Top Offers</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="#">
+                <img class="" src="assets/img/category/2.webp" alt="">
+                <p>Mobile & Tablets</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/3.webp" alt="">
+                <p>Fashion</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/4.webp" alt="">
+                <p>Electronics </p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/5.webp" alt="">
+                <p>TVs & Appliance</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/6.webp" alt="">
+                <p>Home & Furniture</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/7.webp" alt="">
+                <p>Grocery</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/8.webp" alt="">
+                <p>Flights</p>
+              </a>
+            </div>
+            <div class="cat-item item">
+              <a href="">
+                <img class="" src="assets/img/category/9.webp" alt="">
+                <p>Beauty</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category Icons End -->
+      <!-- Main Slider-->
+      <section class="m-10">
+        
+          <div id="main_slider" class="owl-carousel owl-theme main-slider">
+            <div class="item">
+              <img class="img-fluid" src="assets/img/slider/slider-big-1.webp" alt="">
+              
+            </div>
+            <div class=" item">
+              <img class="img-fluid" src="assets/img/slider/slider-big-2.webp" alt="">
+              
+            </div>
+            <div class=" item">
+              <img class="img-fluid" src="assets/img/slider/slider-big-2.webp" alt="">
+              
+            </div>
+            <div class=" item">
+              <img class="img-fluid" src="assets/img/slider/slider-big-2.webp" alt="">
+              
+            </div>
+            <div class=" item">
+              <img class="img-fluid" src="assets/img/slider/slider-big-2.webp" alt="">
+              
+            </div>
+            
+          </div>
+        
+      </section>
+      <!-- Slider End -->
+      <!-- Bank Offer-->
+      <section class="m-10 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 ad-img">
+              <img class="img-fluid" src="assets/img/bank-offer.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Bank Offer End -->
+      <!-- Offer Slider  -->
+      <section class="m-10 bg-white pt-20">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Offer Slider Left -->
+            <div class="col-md-2 offer-left-box">
+              <div class="">
+                <div class="offer-title">
+                  <h3>Top Offer</h3>
+                </div>
+                <div class="">
+                  <a href="" class="button-style-1"> View All</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-8">
+              <!-- Offer Slider Carousel  -->
+              <div class="owl-carousel owl-theme offer-slider">
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-ft-1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-ft-2.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-f-3.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="">
+                <img src="assets/img/offer-boat.webp" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offer Slider End -->
+      <!-- Offer  -->
+      <section class="m-10">
+        <div class="container-fluid">
+          <div class="row offers-3">
+            <div class="col-md-4 col-12 col-sm-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-4.webp" alt="">
+            </div>
+            <div class="col-md-4 col-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-5.webp" alt="">
+            </div>
+            <div class="col-md-4 col-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-6.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offer End -->
+      <!-- Offer Slider  -->
+      <section class="m-10 bg-white pt-20">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Offer Slider Left -->
+            <div class="col-md-2 offer-left-box">
+              <div class="">
+                <div class="offer-title">
+                  <h3>Top Offer</h3>
+                </div>
+                <div class="">
+                  <a href="" class="button-style-1"> View All</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-10">
+              <!-- Offer Slider Carousel  -->
+              <div class="owl-carousel owl-theme offer-slider-2">
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offer Slider End -->
+      <!-- Offer  -->
+      <section class="m-10 ">
+        <div class="container-fluid">
+          <div class="row offers-3">
+            <div class="col-md-4 col-12 col-sm-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-1.webp" alt="">
+            </div>
+            <div class="col-md-4 col-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-2.webp" alt="">
+            </div>
+            <div class="col-md-4 col-12 offer-3-item">
+              <img class="img-fluid" src="assets/img/offer-3.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offer End -->
+      <!-- Brand Offer Slider  -->
+      <section class="m-10 bg-white pt-20">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Offer Slider Left -->
+            <div class="col-md-12">
+              <div class="title">
+                <h3>Featured Brands</h3>
+              </div>
+              <!-- Offer Slider Carousel  -->
+              <div id="owl-carousel-brand" class="owl-carousel owl-theme brand-offer-slider">
+                <!-- Item  -->
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/1.webp" alt="">
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/2.webp" alt="">
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/3.webp" alt="">
+                  </div>
+                  
+                </div>
+                <!-- Item  -->
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer//4.webp" alt="">
+                  </div>
+                </div>
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/5.webp" alt="">
+                  </div>
+                </div>
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/1.webp" alt="">
+                  </div>
+                </div>
+                <div class="item brand-offer-slider-item">
+                  <div class="brand-offer-slider-item-img">
+                    <img src="assets/img/brand-offer/2.webp" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Brand Offer Slider End -->
+      <!-- Offer Slider  -->
+      <section class="m-10 bg-white pt-20">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Offer Slider Left -->
+            <div class="col-md-2 offer-left-box">
+              <div class="">
+                <div class="offer-title">
+                  <h3>Top Deals On Electronics</h3>
+                </div>
+                <div class="">
+                  <a href="" class="button-style-1"> View All</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-10">
+              <!-- Offer Slider Carousel  -->
+              <div class="owl-carousel owl-theme offer-slider-2">
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-4.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-6.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <!-- Item  -->
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-2.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+                <div class="item offer-slider-item">
+                  <div class="offer-slider-item-img">
+                    <img src="assets/img/products/prd-1.webp" alt="">
+                  </div>
+                  <div class="offer-slider-item-info">
+                    <div class="offer-slider-item-title">Suitcases</div>
+                    <div class="offer-slider-item-off">Min 60% Off</div>
+                    <div class="offer-slider-item-cat">Bags</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offer Slider End -->
+
+    </main>
+    <!-- Main End-->
+    <!-- Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>ABOUT</h4>
+              <ul class="footer-links">
+                <li><a href="">Contact</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">FlipKart Stories</a></li>
+                <li><a href="">Press</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>ABOUT</h4>
+              <ul class="footer-links">
+                <li><a href="">Contact</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">FlipKart Stories</a></li>
+                <li><a href="">Press</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>ABOUT</h4>
+              <ul class="footer-links">
+                <li><a href="">Contact</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">FlipKart Stories</a></li>
+                <li><a href="">Press</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>ABOUT</h4>
+              <ul class="footer-links">
+                <li><a href="">Contact</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">FlipKart Stories</a></li>
+                <li><a href="">Press</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>Mail Us:</h4>
+              <ul class="footer-links">
+                <p>
+                  Flipkart Internet Private Limited,
+                  
+                  Buildings Alyssa, Begonia &
+                  
+                  Clove Embassy Tech Village,
+                  
+                  Outer Ring Road, Devarabeesanahalli Village,
+                  
+                  Bengaluru, 560103,
+                  
+                  Karnataka, India</p>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="footer-links-item">
+              <h4>Registered Office Address:</h4>
+              <ul class="footer-links">
+                <p>
+                  
+Flipkart Internet Private Limited,
+
+Buildings Alyssa, Begonia &
+
+Clove Embassy Tech Village,
+
+Outer Ring Road, Devarabeesanahalli Village,
+
+Bengaluru, 560103,
+
+Karnataka, India
+
+CIN : U51109KA2012PTC066107
+
+Telephone: 044-45614700</p>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row bottom-footer">
+          <div class="last-footer-links">
+            <ul class="footer-links-list">
+              <li><a href=""><i class="fa fa-user"> Become a Seller</i></a></li>
+              <li><a href=""><i class="fa fa-user"> Advertise</i></a></li>
+              <li><a href=""><i class="fa fa-user"> Gift Card</i></a></li>
+              <li><a href=""><i class="fa fa-user"> Help Center</i></a></li>
+              <li><a href="">© 2007-2023 Flipkart.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End-->
+    <!-- Script-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+</body>
+</html>
